@@ -18,6 +18,7 @@ class _TimelineState extends State<Timeline> {
     return Container(
       width: Contextor.width(context),
       height: Contextor.height(context),
+      color: Colors.white,
       child: SingleChildScrollView(
         child: Column(
           children: <Widget>[

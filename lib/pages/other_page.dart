@@ -14,6 +14,7 @@ class _OtherpageState extends State<Otherpage> {
     return Container(
       width: Contextor.width(context),
       height: Contextor.height(context),
+      color: Colors.white,
       child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
