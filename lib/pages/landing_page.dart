@@ -17,7 +17,7 @@ class _LandingPageState extends State<LandingPage> {
       floatingActionButton: FloatingActionButton(
         backgroundColor: Colors.redAccent,
         onPressed: () {
-          Navigator.pushNamed(context, AppPage.route);
+          Navigator.pushReplacementNamed(context, AppPage.route);
         },
         child: Text('next'),
       ),
@@ -26,7 +26,9 @@ class _LandingPageState extends State<LandingPage> {
         height: Contextor.height(context),
         child: SingleChildScrollView(
           child: Column(
-            children: <Widget>[],
+            children: <Widget>[
+              Text('Landing page'),
+            ],
           ),
         ),
       ),

@@ -21,16 +21,14 @@ class _AppPageState extends State<LoginPage> {
     double inputBoxHorizontalPadding = Contextor.width(context) / 6;
     double inputBoxVerticalPadding = 12;
 
-    return Scaffold(
-      backgroundColor: Colors.white,
-      body: Container(
-        width: Contextor.width(context),
-        height: Contextor.height(context),
-        child: SingleChildScrollView(
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: <Widget>[],
-          ),
+    return Container(
+      width: Contextor.width(context),
+      height: Contextor.height(context),
+      child: SingleChildScrollView(
+        child: Column(
+          children: <Widget>[
+            Text('login page'),
+          ],
         ),
       ),
     );

@@ -3,16 +3,12 @@ import 'package:expanse/utils/contextor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class HomePage extends StatefulWidget {
-  static String route = "/home";
-
+class Otherpage extends StatefulWidget {
   @override
-  _HomePageState createState() => _HomePageState();
+  _OtherpageState createState() => _OtherpageState();
 }
 
-class _HomePageState extends State<HomePage> {
-  final String route = HomePage.route;
-
+class _OtherpageState extends State<Otherpage> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -21,7 +17,7 @@ class _HomePageState extends State<HomePage> {
       child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Text('home page'),
+            Text('Other page'),
           ],
         ),
       ),
