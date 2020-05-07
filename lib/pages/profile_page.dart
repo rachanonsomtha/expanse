@@ -3,12 +3,12 @@ import 'package:expanse/utils/contextor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class Otherpage extends StatefulWidget {
+class Profilepage extends StatefulWidget {
   @override
   _OtherpageState createState() => _OtherpageState();
 }
 
-class _OtherpageState extends State<Otherpage> {
+class _OtherpageState extends State<Profilepage> {
   @override
   Widget build(BuildContext context) {
     return Container(

@@ -1,6 +1,6 @@
 import 'package:expanse/pages/auth/login_page.dart';
 import 'package:expanse/pages/home_page.dart';
-import 'package:expanse/pages/other_page.dart';
+import 'package:expanse/pages/profile_page.dart';
 import 'package:expanse/pages/timeline_page.dart';
 import 'package:expanse/utils/contextor.dart';
 import 'package:expanse/widgets/app_safe_area.dart';
@@ -22,7 +22,7 @@ class _AppPageState extends State<AppPage> {
   static List<Widget> _pageChildren = <Widget>[
     HomePage(),
     Timeline(),
-    Otherpage(),
+    Profilepage(),
   ];
 
   @override
@@ -59,7 +59,7 @@ class _AppPageState extends State<AppPage> {
                     ),
                     GButton(
                       icon: MdiIcons.accountOutline,
-                      text: 'Otherpage',
+                      text: 'Profilepage',
                     ),
                   ],
                   selectedIndex: _selectedIndex,
