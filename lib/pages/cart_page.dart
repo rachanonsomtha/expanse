@@ -3,16 +3,12 @@ import 'package:expanse/utils/contextor.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
-class Timeline extends StatefulWidget {
-  static String route = "/home";
-
+class Cart extends StatefulWidget {
   @override
-  _TimelineState createState() => _TimelineState();
+  _CartState createState() => _CartState();
 }
 
-class _TimelineState extends State<Timeline> {
-  final String route = Timeline.route;
-
+class _CartState extends State<Cart> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -22,7 +18,7 @@ class _TimelineState extends State<Timeline> {
       child: SingleChildScrollView(
         child: Column(
           children: <Widget>[
-            Text('Timeline page'),
+            Text('Cart page'),
           ],
         ),
       ),

@@ -1,7 +1,7 @@
 import 'package:expanse/pages/auth/login_page.dart';
 import 'package:expanse/pages/home_page.dart';
 import 'package:expanse/pages/profile_page.dart';
-import 'package:expanse/pages/timeline_page.dart';
+import 'package:expanse/pages/cart_page.dart';
 import 'package:expanse/utils/contextor.dart';
 import 'package:expanse/widgets/app_safe_area.dart';
 import 'package:flutter/material.dart';
@@ -21,7 +21,7 @@ class _AppPageState extends State<AppPage> {
   int _selectedIndex = 0;
   static List<Widget> _pageChildren = <Widget>[
     HomePage(),
-    Timeline(),
+    Cart(),
     Profilepage(),
   ];
 
@@ -54,12 +54,12 @@ class _AppPageState extends State<AppPage> {
                       text: 'Home',
                     ),
                     GButton(
-                      icon: MdiIcons.heartOutline,
-                      text: 'Timeline',
+                      icon: MdiIcons.cart,
+                      text: 'Cart',
                     ),
                     GButton(
                       icon: MdiIcons.accountOutline,
-                      text: 'Profilepage',
+                      text: 'Profile',
                     ),
                   ],
                   selectedIndex: _selectedIndex,

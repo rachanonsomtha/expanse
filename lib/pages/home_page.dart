@@ -22,7 +22,6 @@ class _HomePageState extends State<HomePage> {
     return SingleChildScrollView(
       child: Column(
         children: <Widget>[
-          Text('Home page'),
           buildBannerSection(),
           Container(
             padding: EdgeInsets.symmetric(horizontal: 4.0),
@@ -74,7 +73,7 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: EdgeInsets.all(4.0),
             child: Text(
-              'ข้อมูลที่ต้องรู้',
+              'ทั่วไป',
               style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,
@@ -87,7 +86,7 @@ class _HomePageState extends State<HomePage> {
               width: Contextor.width(context),
               height: 100,
               image: AppImages.tempImgUrl,
-              label: 'อาการเบื้องต้น',
+              label: 'รับหิ้ว',
             ),
           ),
           Padding(
@@ -96,7 +95,7 @@ class _HomePageState extends State<HomePage> {
               width: Contextor.width(context),
               height: 100,
               image: AppImages.tempImgUrl,
-              label: 'วิธีป้องกันตนเองเบื้องต้น',
+              label: 'พรีออเดอร์',
             ),
           ),
         ],
@@ -113,7 +112,7 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: EdgeInsets.all(4.0),
             child: Text(
-              'แหล่งข้อมูลอื่น',
+              'ข่าวสารต่าง ๆ',
               style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,
@@ -126,7 +125,7 @@ class _HomePageState extends State<HomePage> {
               width: Contextor.width(context),
               height: 100,
               image: AppImages.tempImgUrl,
-              label: 'Covid Tracker',
+              label: 'Resource 1',
             ),
           ),
           Padding(
@@ -135,7 +134,7 @@ class _HomePageState extends State<HomePage> {
               width: Contextor.width(context),
               height: 100,
               image: AppImages.tempImgUrl,
-              label: 'แหล่งรวมหน้ากากอนามัย',
+              label: 'Resource 2',
             ),
           ),
         ],
@@ -152,7 +151,7 @@ class _HomePageState extends State<HomePage> {
           Padding(
             padding: EdgeInsets.all(4.0),
             child: Text(
-              'ข่าวเกี่ยวกับ COVID-19',
+              'แจ้งเตือนจากระบบ',
               style: TextStyle(
                 fontSize: 18.0,
                 fontWeight: FontWeight.bold,

@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'TrueShopApp',
+      title: 'HiwMorChor',
       theme: ThemeData(
         primaryColor: Colors.white,
         textTheme: GoogleFonts.promptTextTheme(Theme.of(context).textTheme),
